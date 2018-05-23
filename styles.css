@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+div.container {
+  margin: 0 5%;
+}
+
+div span {
+  font-size: 1.05em;
+  text-align: center;
+}

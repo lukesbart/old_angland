@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Old Angland</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+<h1>{{title}}</h1>
+</div>
+
+<div class="container">
+  <div id="app2">
+    <div v-for="state in states"><p>{{ state.text }}</p> <span>{{ state.summary }}</span></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="app.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
