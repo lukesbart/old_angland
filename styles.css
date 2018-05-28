@@ -1,4 +1,4 @@
-h1 {
+h1, h2 {
   text-align: center;
 }
 
@@ -13,4 +13,28 @@ div.container {
 div span {
   font-size: 1.05em;
   text-align: center;
+}
+
+p.img {
+  float: left;
+  width: 60%;
+}
+
+img {
+  float: right;
+}
+
+p.nav {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.disabled {
+  color: grey;
+}
+
+a {
+  color: #344;
+  text-decoration: none;
+
 }
