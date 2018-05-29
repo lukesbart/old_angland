@@ -1,40 +1,52 @@
-h1, h2 {
+/*
+====
+Old Angland
+Copyright (c) 2018 Luke Bartholomew All Rights Reserved.
+====
+ */
+
+/*
+======================
+    Text Styles
+======================
+ */
+
+.center {
   text-align: center;
 }
 
-p {
-  font-size: 1.5em;
+.section {
+  display: block;
+  margin-bottom: 2px;
 }
 
-div.container {
-  margin: 0 5%;
+.description {
+  display: block;
+  margin-bottom: 20px;
 }
 
-div span {
-  font-size: 1.05em;
-  text-align: center;
-}
-
-p.img {
-  float: left;
-  width: 60%;
-}
-
-img {
-  float: right;
-}
-
-p.nav {
-  display: inline-block;
-  margin-left: 20px;
-}
+/*
+===================
+ Functional Styles
+===================
+ */
 
 .disabled {
-  color: grey;
+  color: #BFBFBF;
+  cursor: default;
 }
 
-a {
-  color: #344;
-  text-decoration: none;
+.disabled:hover {
+  color: #BFBFBF;
+}
 
+
+/*
+=============================
+          Layout
+=============================
+ */
+
+.main_title, .article_title {
+  margin-top: 50px;
 }

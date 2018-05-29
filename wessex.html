@@ -3,40 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Old Angland</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="app">
-    <h1>{{title}}</h1>
-  </div>
 
   <div class="container">
     <div id="history">
-      <h2>{{states[0].text}}</h2>
-      <!--
+      <h2 class="article_title">{{states[0].text}}</h2>
 
-      Use Grid Layout Later
-
-    -->
-      <div class="wrap">
-        <img src="./img/england.svg" alt="">
-        <p class="img">{{states[0].subtitle}}</p>
+      <div class="row">
+        <p class="column">{{states[0].subtitle}}</p>
+        <img class="column column-25" src="./img/england.svg" alt="">
       </div>
 
       <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
 
-      <p class="nav"><a href="" class="disabled">Previous</a></p>
-      <p class="nav"><a href="index.html">Home</a></p>
-      <p class="nav"><a href="england.html">Next</a></p>
+      <div class="row">
+        <a href="" class="disabled column">Previous</a>
+        <a href="index.html" class="column">Home</a>
+        <a href="england.html" class="column">Next</a>
+      </div>
     </div>
   </div>
 
